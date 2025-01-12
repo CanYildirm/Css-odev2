@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+}
+.arama-cubugu{
+    background-color: rgb(227, 227, 227);
+    padding: 5px;
+}
+.arama-cubugu input{
+    width: 450px;
+}
+.arama-cubugu button{
+    margin: 1px;
+}
+ul li button{
+    margin-right: 3px;
+}
+.container{
+    display: flex;  /* Flexbox ile düzenleme yapar */
+    justify-content: space-between;  /* Öğeler arasında boşluk bırakır */
+    background-color: aqua;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 5px;
+}
+.box li button{
+    margin-right: 3px;
+}
+.footer{
+    margin-top: 5px;
+}
+
